@@ -1,0 +1,72 @@
+Gardening...
+Name: Pepper Alive: True Water: 83 Sunlight: 90 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 90 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 90 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 90 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 90 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+
+
+Name: Pepper Alive: True Water: 82 Sunlight: 93 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 93 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 93 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 93 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 93 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 89 Sunlight: 92 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 89 Sunlight: 92 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 89 Sunlight: 92 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 89 Sunlight: 92 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 89 Sunlight: 92 Ideal Temperature: 25
+
+
+Name: Pepper Alive: True Water: 83 Sunlight: 96 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 96 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 96 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 96 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 96 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 91 Sunlight: 98 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 91 Sunlight: 98 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 91 Sunlight: 98 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 91 Sunlight: 98 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 91 Sunlight: 98 Ideal Temperature: 25
+
+
+Name: Pepper Alive: True Water: 82 Sunlight: 99 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 99 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 99 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 99 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 99 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 88 Sunlight: 94 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 88 Sunlight: 94 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 88 Sunlight: 94 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 88 Sunlight: 94 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 88 Sunlight: 94 Ideal Temperature: 25
+
+
+Name: Pepper Alive: True Water: 83 Sunlight: 89 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 89 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 89 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 89 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 83 Sunlight: 89 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 90 Sunlight: 100 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 90 Sunlight: 100 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 90 Sunlight: 100 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 90 Sunlight: 100 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 90 Sunlight: 100 Ideal Temperature: 25
+
+
+Name: Pepper Alive: True Water: 82 Sunlight: 92 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 92 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 92 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 92 Ideal Temperature: 10
+Name: Pepper Alive: True Water: 82 Sunlight: 92 Ideal Temperature: 10
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+Nom: Carot Alive: True Water: 92 Sunlight: 96 Ideal Temperature: 25
+
