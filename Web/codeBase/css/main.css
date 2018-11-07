@@ -1,0 +1,11 @@
+body {
+  background:rgb(200, 200, 200);
+  margin:0;
+}
+
+/* test class (should be removed) */
+.test{
+  width:400px;
+  height:400px;
+  background-color:green; 
+}
