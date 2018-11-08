@@ -5,14 +5,14 @@ RM=rm
 
 all: simple complex
 
-simple:
+simple: main.c solve.c solve.h libproblemsimple.a
 	$(CC) *.c -o simple $(CCFLAGS) -lproblemsimple
 
-complex:
+complex: main.c solve.c solve.h libproblemcomplex.a
 	$(CC) *.c -o complex $(CCFLAGS) -lproblemcomplex
 
 clean:
 	$(RM) -vf *.o
 	$(RM) -vf *.out
-	$(RM) simple complex
+	$(RM) -vf simple complex
 

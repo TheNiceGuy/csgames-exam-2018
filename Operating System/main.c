@@ -7,6 +7,10 @@
 #include <stdint.h>
 #include <errno.h>
 #include <solve.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 /** The description of this program. */
 static char description[] = "Simple program that solves Laplace's equations.";
@@ -205,7 +209,27 @@ int main(int argc, char** argv) {
     printf("Threads:  %d\n", arguments.threads);
 #endif
 
-    /* TODO: launch the solving thing */
+    /* start the daemon */
+    if(arguments.start_daemon) {
+        int fd = open(arguments.log, O_WRONLY | O_CREAT | O_APPEND, 0666);
+        if(fd < 0) {
+            perror("Fail to open log file:");
+            exit(1);
+        }
+        dprintf(fd, "=======\n");
+        dprintf(fd, "NEW RUN\n");
+        dprintf(fd, "=======\n");
+        start_daemon(arguments.threads, fd, arguments.socket);
+        return 0;
+    }
 
+    /* stop the daemon */
+    if(arguments.stop_daemon) {
+        stop_daemon(arguments.socket);
+        return 0;
+    }
+
+    /* normal startup */
+    solve(arguments.threads, STDIN_FILENO);
     return 0;
 }
