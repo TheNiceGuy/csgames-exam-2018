@@ -1,17 +1,18 @@
-BINARY=solver
-
 CC=gcc
-CCFLAGS=-I. -L. -lproblem -lpthread -Wall
+CCFLAGS=-I. -L. -lpthread -Wall
 
 RM=rm
 
-all: $(BINARY)
+all: simple complex
 
-$(BINARY): main.c solve.c solve.h problem.h libproblem.a
-	$(CC) *.c -o $(BINARY) $(CCFLAGS)
+simple:
+	$(CC) *.c -o simple $(CCFLAGS) -lproblemsimple
+
+complex:
+	$(CC) *.c -o complex $(CCFLAGS) -lproblemcomplex
 
 clean:
 	$(RM) -vf *.o
 	$(RM) -vf *.out
-	$(RM) $(BINARY)
+	$(RM) simple complex
 
