@@ -4,7 +4,7 @@
 Dans cette section, il vous faut écrire un programme multitâche permettant
 de calculer des problèmes sur plusieurs fils d'exécution.
 
-## Partie 1 : résoudre les problèmes
+## Partie 1 : résoudre les problèmes (5pts)
 Vous avez un nombre inconnue de problèmes à résoudre. Vous devez séparer la
 résolution des problèmes sur plusieurs fils d'exécution.
 
@@ -44,7 +44,7 @@ void delete_problem(struct problem* problem);
 ```
 Cette fonction n'est pas _thread-safe_ pour un même problème.
 
-## Partie 2 : exécution en daemon
+## Partie 2 : exécution en daemon (10pts)
 On veut que la résolution des problèmes s'effectuent en arrière plan. Vous devez
 permette à l'application de démarrer un daemon dans le système. Pour se faire :
 
@@ -69,6 +69,7 @@ La table suivante montre les arguments qui affectent cette partie.
 4. le fils crée un tube nommé
 5. le fils démarre les fils d'exécution calculant les problèmes
 6. le fils écoute le tube nommé avec `poll()`
+7. le fils quitte s'il ne reste plus de problèmes
 
 **Vous devez remplir la fonction `start_daemon` du fichier `solve.c`.**
 
