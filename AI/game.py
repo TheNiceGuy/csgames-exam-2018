@@ -55,7 +55,7 @@ class Game:
         # game loop
         while True:
             # play move if legal, else will disqualify the player
-            if not self.board.place(self.player_x.play(board) if self.current_player else self.player_o.play(board), self.board.PLAYER_X_PIECE if self.current_player else self.board.PLAYER_O_PIECE):
+            if not self.board.place(self.player_x.play(self.board) if self.current_player else self.player_o.play(self.board), self.board.PLAYER_X_PIECE if self.current_player else self.board.PLAYER_O_PIECE):
                 print('Player', self.board.PLAYER_X_PIECE if self.current_player else self.board.PLAYER_O_PIECE, 'is disqualified for attempting an illegal move.')
                 exit()
 
