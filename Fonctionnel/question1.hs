@@ -4,4 +4,4 @@ module Question1 (rev) where
 --
 -- Écrire une fonction qui renverse une liste en utilisant qu'un seul `foldl`.
 rev :: [a] -> [a]
-rev xs = xs -- À MODIFIER
+rev xs = foldl (\acc x -> x:acc) [] xs
