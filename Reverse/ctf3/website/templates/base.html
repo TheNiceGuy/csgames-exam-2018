@@ -1,0 +1,30 @@
+<!doctype html>
+
+<title>{% block title %}{% endblock %}</title>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style.css') }}">
+    {% block header %}{% endblock %}
+</head>
+<body>
+    <div class="center">
+        <img src="{{ url_for('static', filename='svg/logo.svg') }}" class="logo"/>
+        {% block content %}{% endblock %}
+        <p style="margin-bottom:3cm;"/>
+        {% with status = get_flashed_messages(category_filter=["status"]) %}
+            {%- if status|length > 0 %}
+                <div class="alert alert-success">
+                    <label>{{ status[0] }}</label>
+                <div>
+            {%- endif %}
+        {% endwith %}
+        {% with error = get_flashed_messages(category_filter=["error"]) %}
+            {%- if error|length > 0 %}
+                <div class="alert alert-danger">
+                    <label>{{ error[0] }}</label>
+                <div>
+            {%- endif %}
+        {% endwith %}
+    </div>
+</body>

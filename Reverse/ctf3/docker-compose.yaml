@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+    website:
+        image: "theniceguy/csgames-exam-website:latest"
+        environment:
+            - SECRET_KEY=iY/K6nniFNO9xXjDnB4ol6DqNQhwwVjh
+            - SECRET_ROUTE=PqSdNEUABHqJO411
+            - COOKIE_KEY=SESSION_ID
+            - SESSION_ID=Ci5WFaCSZxj8gVj2tre2ape+iyxm50NI
+        ports:
+            - "80:5000"
+    bot:
+        image: "theniceguy/csgames-exam-bot:latest"
+        environment:
+            - VULNERABLE_WEBSITE=http://68.183.119.125/
+            - VULNERABLE_ROUTE=PqSdNEUABHqJO411
+            - COOKIE_KEY=SESSION_ID
+            - SESSION_ID=Ci5WFaCSZxj8gVj2tre2ape+iyxm50NI
+    xsspost:
+        image: "theniceguy/csgames-exam-xsspost:latest"
+        ports:
+            - "5000:5000"

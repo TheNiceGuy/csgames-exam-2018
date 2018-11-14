@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <form action="login" method="post">
+        <label><b>اسم المستخدم</b></label>
+        <input type="text" required></input>
+        <label><b>كلمه السر</b></label>
+        <input type="password" required></input>
+        <button type="submit">تسجيل الدخول</button>
+        <font size="-2">
+            <label>
+                <a>ليس لديك حساب؟</a>
+                <a href="/request">ط طلب واحد من المسؤول!</a>
+            </label>
+        </font>
+    </form>
+{% endblock %}

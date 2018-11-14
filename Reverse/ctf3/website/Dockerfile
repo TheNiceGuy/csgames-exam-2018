@@ -1,0 +1,11 @@
+FROM python:3-slim
+
+RUN pip install flask flask_cors
+
+WORKDIR "/server"
+COPY . .
+
+EXPOSE 5000
+
+ENTRYPOINT ["python"]
+CMD ["server.py"]

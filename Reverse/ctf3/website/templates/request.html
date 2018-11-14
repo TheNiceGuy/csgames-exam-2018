@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <form action="request" method="post">
+        <label><b>الاسم الاول</b></label>
+        <input type="text" name="fname" required></input>
+        <label><b>الكنية</b></label>
+        <input type="text" name="lname" required></input>
+        <label><b>فيلقي</b></label>
+        <input type="text" name="matricule" required></input>
+        <label><b>برنامج</b></label>
+        <input type="text" name="program" required></input>
+        <label><b>عرفنى بنفسك</b></label>
+        <textarea name="introduction" rows="5"required></textarea>
+        <button type="submit">تقديم الطلب</button>
+    </form>
+{% endblock %}
