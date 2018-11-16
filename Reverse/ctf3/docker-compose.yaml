@@ -8,6 +8,7 @@ services:
             - SECRET_ROUTE=PqSdNEUABHqJO411
             - COOKIE_KEY=SESSION_ID
             - SESSION_ID=Ci5WFaCSZxj8gVj2tre2ape+iyxm50NI
+            - PYTHONUNBUFFERED=1
         ports:
             - "80:5000"
     bot:
@@ -17,7 +18,11 @@ services:
             - VULNERABLE_ROUTE=PqSdNEUABHqJO411
             - COOKIE_KEY=SESSION_ID
             - SESSION_ID=Ci5WFaCSZxj8gVj2tre2ape+iyxm50NI
+            - PYTHONUNBUFFERED=1
+        network_mode: "host"
     xsspost:
         image: "theniceguy/csgames-exam-xsspost:latest"
+        environment:
+            - PYTHONUNBUFFERED=1
         ports:
             - "5000:5000"
